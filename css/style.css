@@ -27,15 +27,6 @@ p {
     color: steelblue;
 }
 
-.list {
-    color: steelblue;
-}
-
-#footer {
-    color: midnightblue;
-    text-align: center;
-}
-
 .image {
     max-width: 35%;
     height: auto;
@@ -44,19 +35,4 @@ p {
 .aboutme {
     text-align: center;
     border: 2px solid midnightblue;
-}
-
-.what {
-    border: 2px dashed midnightblue;
-    padding: 15px;
-}
-
-.how {
-    border: 2px dotted midnightblue;
-    padding: 15px;
-}
-
-.reflect {
-    border: 2px ridge midnightblue;
-    padding: 15px;
 }
