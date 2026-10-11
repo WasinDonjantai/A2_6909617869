@@ -1,0 +1,62 @@
+body {
+    background-color: bisque;
+}
+
+#header {
+    text-align: center;
+    color: midnightblue;
+    background-color: steelblue;
+    font-size: 50px;
+    padding: 40px;
+}
+
+h2 {
+    color: midnightblue;
+    text-align: center;
+}
+
+h3 {
+    color: midnightblue;
+}
+
+h4 {
+    color: midnightblue;
+}
+
+p {
+    color: steelblue;
+}
+
+.list {
+    color: steelblue;
+}
+
+#footer {
+    color: midnightblue;
+    text-align: center;
+}
+
+.image {
+    max-width: 35%;
+    height: auto;
+}
+
+.aboutme {
+    text-align: center;
+    border: 2px solid midnightblue;
+}
+
+.what {
+    border: 2px dashed midnightblue;
+    padding: 15px;
+}
+
+.how {
+    border: 2px dotted midnightblue;
+    padding: 15px;
+}
+
+.reflect {
+    border: 2px ridge midnightblue;
+    padding: 15px;
+}
