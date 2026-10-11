@@ -2,21 +2,33 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>My Learning Portfolio</title>
 </head>
 
 <body>
     <h1 id="header">Learning Portfolio</h1>
-    <h2>About Me</h2>
-    <div class="aboutme">
-        <p>สวัสดีครับผมชื่อ <span style="font-weight: bold;">วศิน ดรจันทร์ใต้</span> รหัสนักศึกษา <span
-                style="font-weight: bold;">6909617869</span> ขณะนี้กำลังเป็นนักศึกษาชั้นปีที่ 1</p>
-        <p>อยู่ที่มหาลัยวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต คณะวิทยาศาสตร์และเทคโนโลยีฯ สาขา <span
-                style="font-weight: bold;">com-sci</span> ครับ</p>
-        <img src="./media/Me.jpg" alt="My Picture" class="image">
-        <p><em>นี่คือรูปภาพของผมครับ</em></p>
-    </div>
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body p-4 p-md-5">
+            <div class="container my-4">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+                        <img src="./media/Me.jpg" alt="My Picture" class="img-fluid rounded-circle shadow-sm"
+                            style="max-width: 250px;">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h2>About Me</h2>
+                        <div class="aboutme p-4 mb-4">
+                            <p class="fs-5">สวัสดีครับผมชื่อ <span class="fw-bold">วศิน ดรจันทร์ใต้</span> รหัสนักศึกษา
+                                <span class="fw-bold">6909617869</span> ขณะนี้กำลังเป็นนักศึกษาชั้นปีที่ 1</p>
+                            <p>อยู่ที่มหาลัยวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต คณะวิทยาศาสตร์และเทคโนโลยีฯ สาขา <span
+                                    class="fw-bold text-primary">com-sci</span> ครับ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
